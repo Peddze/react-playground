@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Hello from './Hello.jsx'
 import Welcome from './Welcome.jsx'
 import Bill from './Bill.jsx'
+import Counter from './Counter.jsx'
 import './App.css'
 
 function App() {
@@ -25,14 +25,8 @@ function App() {
           <Welcome />
           <Bill name="Internet" amount={30} owner="Shared" />
           <Bill name="Claude" amount={18} owner="Pedro" />
+          <Counter />
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
       </section>
 
       <div className="ticks"></div>
