@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Hello from './Hello.jsx'
 import Welcome from './Welcome.jsx'
+import Bill from './Bill.jsx'
 import './App.css'
 
 function App() {
@@ -19,11 +20,11 @@ function App() {
         </div>
         <div>
           <h1>Sprint 3 Begins</h1>
-          <Hello />
+          <Hello name="Pedro"/>
+          <Hello name="World"/>
           <Welcome />
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+          <Bill name="Internet" amount={30} owner="Shared" />
+          <Bill name="Claude" amount={18} owner="Pedro" />
         </div>
         <button
           type="button"
