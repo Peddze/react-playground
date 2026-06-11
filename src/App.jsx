@@ -5,10 +5,10 @@ import Hello from './Hello.jsx'
 import Welcome from './Welcome.jsx'
 import Bill from './Bill.jsx'
 import Counter from './Counter.jsx'
+import Greeter from './Greeter.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -26,6 +26,7 @@ function App() {
           <Bill name="Internet" amount={30} owner="Shared" />
           <Bill name="Claude" amount={18} owner="Pedro" />
           <Counter />
+          <Greeter />
         </div>
       </section>
 
