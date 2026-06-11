@@ -6,6 +6,7 @@ import Welcome from './Welcome.jsx'
 import Bill from './Bill.jsx'
 import Counter from './Counter.jsx'
 import Greeter from './Greeter.jsx'
+import BillsList from './BillsList.jsx'
 import './App.css'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Bill name="Claude" amount={18} owner="Pedro" />
           <Counter />
           <Greeter />
+          <BillsList />
         </div>
       </section>
 

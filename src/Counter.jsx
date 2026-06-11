@@ -13,6 +13,7 @@ function Counter() {
         <div>
             <h4>The current count is {count}</h4>
             <button type='button' className='counter' onClick={handleClick}>Increment</button>
+            {' '}
             <button type='button' className='counter' onClick={handleReset}>Reset</button>
         </div>
     );
